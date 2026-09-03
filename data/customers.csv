@@ -1,0 +1,301 @@
+customer_id,customer_name,country,segment
+1,Customer 001,India,Consumer
+2,Customer 002,Singapore,Consumer
+3,Customer 003,Germany,Consumer
+4,Customer 004,USA,Small Business
+5,Customer 005,India,Small Business
+6,Customer 006,India,Enterprise
+7,Customer 007,India,Consumer
+8,Customer 008,Canada,Consumer
+9,Customer 009,UK,Small Business
+10,Customer 010,Germany,Consumer
+11,Customer 011,India,Consumer
+12,Customer 012,Singapore,Consumer
+13,Customer 013,Canada,Consumer
+14,Customer 014,India,Enterprise
+15,Customer 015,India,Small Business
+16,Customer 016,India,Small Business
+17,Customer 017,India,Consumer
+18,Customer 018,USA,Consumer
+19,Customer 019,USA,Consumer
+20,Customer 020,India,Consumer
+21,Customer 021,UK,Consumer
+22,Customer 022,India,Small Business
+23,Customer 023,India,Small Business
+24,Customer 024,India,Consumer
+25,Customer 025,USA,Enterprise
+26,Customer 026,Germany,Small Business
+27,Customer 027,India,Small Business
+28,Customer 028,USA,Small Business
+29,Customer 029,USA,Consumer
+30,Customer 030,India,Consumer
+31,Customer 031,UK,Consumer
+32,Customer 032,India,Small Business
+33,Customer 033,India,Consumer
+34,Customer 034,Australia,Consumer
+35,Customer 035,Singapore,Consumer
+36,Customer 036,Canada,Consumer
+37,Customer 037,India,Enterprise
+38,Customer 038,India,Small Business
+39,Customer 039,UK,Consumer
+40,Customer 040,USA,Consumer
+41,Customer 041,India,Consumer
+42,Customer 042,USA,Consumer
+43,Customer 043,India,Consumer
+44,Customer 044,Australia,Consumer
+45,Customer 045,India,Consumer
+46,Customer 046,UK,Small Business
+47,Customer 047,India,Small Business
+48,Customer 048,USA,Consumer
+49,Customer 049,USA,Consumer
+50,Customer 050,India,Small Business
+51,Customer 051,Singapore,Consumer
+52,Customer 052,Germany,Enterprise
+53,Customer 053,Australia,Small Business
+54,Customer 054,Australia,Consumer
+55,Customer 055,USA,Consumer
+56,Customer 056,Australia,Small Business
+57,Customer 057,India,Consumer
+58,Customer 058,India,Small Business
+59,Customer 059,India,Enterprise
+60,Customer 060,India,Small Business
+61,Customer 061,India,Consumer
+62,Customer 062,India,Small Business
+63,Customer 063,Canada,Consumer
+64,Customer 064,India,Consumer
+65,Customer 065,India,Enterprise
+66,Customer 066,USA,Consumer
+67,Customer 067,India,Enterprise
+68,Customer 068,Canada,Enterprise
+69,Customer 069,India,Consumer
+70,Customer 070,Singapore,Consumer
+71,Customer 071,Germany,Consumer
+72,Customer 072,India,Consumer
+73,Customer 073,India,Consumer
+74,Customer 074,Canada,Small Business
+75,Customer 075,Germany,Consumer
+76,Customer 076,Germany,Consumer
+77,Customer 077,Germany,Small Business
+78,Customer 078,India,Consumer
+79,Customer 079,India,Small Business
+80,Customer 080,India,Consumer
+81,Customer 081,Canada,Consumer
+82,Customer 082,UK,Small Business
+83,Customer 083,India,Small Business
+84,Customer 084,India,Enterprise
+85,Customer 085,India,Small Business
+86,Customer 086,India,Small Business
+87,Customer 087,Germany,Consumer
+88,Customer 088,UK,Consumer
+89,Customer 089,Australia,Small Business
+90,Customer 090,USA,Small Business
+91,Customer 091,India,Enterprise
+92,Customer 092,Germany,Consumer
+93,Customer 093,Germany,Consumer
+94,Customer 094,USA,Small Business
+95,Customer 095,Germany,Consumer
+96,Customer 096,USA,Enterprise
+97,Customer 097,USA,Enterprise
+98,Customer 098,USA,Consumer
+99,Customer 099,India,Small Business
+100,Customer 100,India,Small Business
+101,Customer 101,India,Consumer
+102,Customer 102,UK,Enterprise
+103,Customer 103,India,Consumer
+104,Customer 104,USA,Small Business
+105,Customer 105,Australia,Consumer
+106,Customer 106,India,Enterprise
+107,Customer 107,USA,Consumer
+108,Customer 108,Germany,Consumer
+109,Customer 109,India,Enterprise
+110,Customer 110,India,Consumer
+111,Customer 111,India,Consumer
+112,Customer 112,India,Enterprise
+113,Customer 113,Australia,Enterprise
+114,Customer 114,Canada,Small Business
+115,Customer 115,UK,Small Business
+116,Customer 116,Australia,Consumer
+117,Customer 117,Canada,Consumer
+118,Customer 118,India,Consumer
+119,Customer 119,Australia,Small Business
+120,Customer 120,USA,Small Business
+121,Customer 121,Canada,Small Business
+122,Customer 122,Australia,Small Business
+123,Customer 123,India,Consumer
+124,Customer 124,India,Consumer
+125,Customer 125,India,Consumer
+126,Customer 126,USA,Consumer
+127,Customer 127,Canada,Consumer
+128,Customer 128,Canada,Enterprise
+129,Customer 129,India,Consumer
+130,Customer 130,USA,Consumer
+131,Customer 131,USA,Consumer
+132,Customer 132,India,Small Business
+133,Customer 133,India,Small Business
+134,Customer 134,India,Consumer
+135,Customer 135,Australia,Consumer
+136,Customer 136,India,Small Business
+137,Customer 137,USA,Consumer
+138,Customer 138,Germany,Small Business
+139,Customer 139,India,Small Business
+140,Customer 140,Singapore,Consumer
+141,Customer 141,Singapore,Consumer
+142,Customer 142,India,Enterprise
+143,Customer 143,USA,Consumer
+144,Customer 144,India,Consumer
+145,Customer 145,India,Small Business
+146,Customer 146,India,Enterprise
+147,Customer 147,UK,Enterprise
+148,Customer 148,USA,Small Business
+149,Customer 149,India,Consumer
+150,Customer 150,India,Consumer
+151,Customer 151,Australia,Small Business
+152,Customer 152,India,Small Business
+153,Customer 153,India,Consumer
+154,Customer 154,USA,Enterprise
+155,Customer 155,Singapore,Consumer
+156,Customer 156,India,Consumer
+157,Customer 157,UK,Consumer
+158,Customer 158,Germany,Consumer
+159,Customer 159,India,Consumer
+160,Customer 160,Germany,Consumer
+161,Customer 161,India,Consumer
+162,Customer 162,UK,Small Business
+163,Customer 163,UK,Small Business
+164,Customer 164,USA,Small Business
+165,Customer 165,India,Enterprise
+166,Customer 166,Canada,Consumer
+167,Customer 167,India,Consumer
+168,Customer 168,India,Enterprise
+169,Customer 169,India,Consumer
+170,Customer 170,USA,Enterprise
+171,Customer 171,UK,Consumer
+172,Customer 172,India,Enterprise
+173,Customer 173,USA,Consumer
+174,Customer 174,India,Enterprise
+175,Customer 175,UK,Consumer
+176,Customer 176,India,Enterprise
+177,Customer 177,UK,Consumer
+178,Customer 178,India,Small Business
+179,Customer 179,Australia,Enterprise
+180,Customer 180,India,Consumer
+181,Customer 181,India,Small Business
+182,Customer 182,India,Small Business
+183,Customer 183,Australia,Consumer
+184,Customer 184,Australia,Small Business
+185,Customer 185,India,Small Business
+186,Customer 186,UK,Enterprise
+187,Customer 187,Canada,Consumer
+188,Customer 188,USA,Consumer
+189,Customer 189,USA,Enterprise
+190,Customer 190,India,Enterprise
+191,Customer 191,India,Consumer
+192,Customer 192,Australia,Small Business
+193,Customer 193,Australia,Consumer
+194,Customer 194,UK,Consumer
+195,Customer 195,India,Consumer
+196,Customer 196,India,Consumer
+197,Customer 197,Germany,Small Business
+198,Customer 198,Australia,Consumer
+199,Customer 199,Australia,Enterprise
+200,Customer 200,Germany,Enterprise
+201,Customer 201,UK,Small Business
+202,Customer 202,India,Consumer
+203,Customer 203,India,Consumer
+204,Customer 204,Australia,Small Business
+205,Customer 205,UK,Small Business
+206,Customer 206,India,Consumer
+207,Customer 207,India,Enterprise
+208,Customer 208,UK,Small Business
+209,Customer 209,India,Enterprise
+210,Customer 210,India,Small Business
+211,Customer 211,USA,Small Business
+212,Customer 212,UK,Consumer
+213,Customer 213,UK,Enterprise
+214,Customer 214,India,Enterprise
+215,Customer 215,Germany,Consumer
+216,Customer 216,India,Consumer
+217,Customer 217,India,Consumer
+218,Customer 218,Germany,Small Business
+219,Customer 219,UK,Enterprise
+220,Customer 220,Canada,Consumer
+221,Customer 221,UK,Small Business
+222,Customer 222,USA,Consumer
+223,Customer 223,India,Enterprise
+224,Customer 224,India,Small Business
+225,Customer 225,India,Small Business
+226,Customer 226,India,Consumer
+227,Customer 227,Singapore,Consumer
+228,Customer 228,India,Consumer
+229,Customer 229,Australia,Consumer
+230,Customer 230,UK,Enterprise
+231,Customer 231,Germany,Small Business
+232,Customer 232,USA,Enterprise
+233,Customer 233,USA,Enterprise
+234,Customer 234,USA,Small Business
+235,Customer 235,India,Small Business
+236,Customer 236,Germany,Enterprise
+237,Customer 237,India,Small Business
+238,Customer 238,India,Consumer
+239,Customer 239,UK,Consumer
+240,Customer 240,India,Consumer
+241,Customer 241,Australia,Enterprise
+242,Customer 242,Singapore,Small Business
+243,Customer 243,Australia,Consumer
+244,Customer 244,India,Small Business
+245,Customer 245,India,Small Business
+246,Customer 246,Australia,Consumer
+247,Customer 247,USA,Consumer
+248,Customer 248,Singapore,Small Business
+249,Customer 249,Singapore,Consumer
+250,Customer 250,Canada,Small Business
+251,Customer 251,India,Consumer
+252,Customer 252,India,Enterprise
+253,Customer 253,Canada,Small Business
+254,Customer 254,India,Small Business
+255,Customer 255,India,Enterprise
+256,Customer 256,USA,Consumer
+257,Customer 257,Australia,Consumer
+258,Customer 258,UK,Consumer
+259,Customer 259,USA,Small Business
+260,Customer 260,India,Small Business
+261,Customer 261,UK,Small Business
+262,Customer 262,Singapore,Consumer
+263,Customer 263,India,Consumer
+264,Customer 264,USA,Consumer
+265,Customer 265,Australia,Consumer
+266,Customer 266,Germany,Small Business
+267,Customer 267,UK,Consumer
+268,Customer 268,Germany,Consumer
+269,Customer 269,India,Enterprise
+270,Customer 270,India,Consumer
+271,Customer 271,Canada,Consumer
+272,Customer 272,Canada,Small Business
+273,Customer 273,Canada,Consumer
+274,Customer 274,Australia,Small Business
+275,Customer 275,USA,Enterprise
+276,Customer 276,USA,Enterprise
+277,Customer 277,Germany,Consumer
+278,Customer 278,UK,Enterprise
+279,Customer 279,Germany,Consumer
+280,Customer 280,Germany,Consumer
+281,Customer 281,Australia,Consumer
+282,Customer 282,India,Enterprise
+283,Customer 283,India,Consumer
+284,Customer 284,India,Consumer
+285,Customer 285,USA,Small Business
+286,Customer 286,India,Consumer
+287,Customer 287,USA,Consumer
+288,Customer 288,USA,Consumer
+289,Customer 289,India,Consumer
+290,Customer 290,USA,Consumer
+291,Customer 291,India,Consumer
+292,Customer 292,India,Small Business
+293,Customer 293,Canada,Consumer
+294,Customer 294,India,Consumer
+295,Customer 295,India,Enterprise
+296,Customer 296,USA,Consumer
+297,Customer 297,Germany,Small Business
+298,Customer 298,India,Consumer
+299,Customer 299,UK,Consumer
+300,Customer 300,India,Consumer
