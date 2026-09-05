@@ -28,6 +28,12 @@ Rules:
 - Use the correct table relationships.
 - Revenue is calculated as:
   quantity * unit_price * (1 - discount)
+- After receiving a successful execute_sql result, determine whether
+  the user's question has been answered.
+- If the result is sufficient, do not call execute_sql again.
+- Do not repeat the same SQL query unless there is a clear reason.
+- Always provide a final answer when the available database results
+  are sufficient.
 - Give concise, business-friendly answers.
 """
 
@@ -45,14 +51,19 @@ def run_agent(question: str) -> str:
         HumanMessage(content=question),
     ]
 
-    # Ask the LLM
-    response = llm_with_tools.invoke(messages)
+    for _ in range(5):
 
-    # If the LLM wants to use a tool
-    if response.tool_calls:
+        # Ask the LLM what to do
+        response = llm_with_tools.invoke(messages)
 
+        # Add LLM response to conversation history
         messages.append(response)
 
+        # No tool call means we have the final answer
+        if not response.tool_calls:
+            return response.content
+
+        # Execute requested tools
         for tool_call in response.tool_calls:
 
             if tool_call["name"] == "execute_sql":
@@ -61,6 +72,9 @@ def run_agent(question: str) -> str:
                     tool_call["args"]
                 )
 
+                print("\nSQL RESULT:")
+                print(result)
+
                 messages.append(
                     ToolMessage(
                         content=str(result),
@@ -68,10 +82,4 @@ def run_agent(question: str) -> str:
                     )
                 )
 
-        # Ask the LLM to interpret the tool result
-        final_response = llm_with_tools.invoke(messages)
-
-        return final_response.content
-
-    # No tool required
-    return response.content
+    return "I was unable to complete the analysis within the allowed steps."
