@@ -1,4 +1,5 @@
 from sqlalchemy import create_engine, text
+from langchain_core.tools import tool
 
 DATABASE_URL = (
     "postgresql+psycopg2://"
@@ -7,7 +8,7 @@ DATABASE_URL = (
 
 engine = create_engine(DATABASE_URL)
 
-
+@tool
 def execute_sql(query: str)->list[dict]:
     """Execute a read-only SQL query and return the results."""
 
@@ -15,3 +16,5 @@ def execute_sql(query: str)->list[dict]:
         result = connection.execute(text(query))
 
         return [dict(row._mapping) for row in result]
+
+

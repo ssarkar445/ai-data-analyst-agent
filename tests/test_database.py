@@ -9,7 +9,7 @@ sql = """
     GROUP BY category
     ORDER BY total_product_value DESC;
 """
-results = execute_sql(sql)
+results = execute_sql.invoke(sql)
 
 for result in results:
     print(result)

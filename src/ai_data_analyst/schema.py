@@ -1,5 +1,5 @@
 DATABASE_SCHEMA = """
-Database: analytics
+Database: public
 
 Table: customers
 Columns:

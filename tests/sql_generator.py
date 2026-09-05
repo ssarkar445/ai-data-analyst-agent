@@ -41,5 +41,5 @@ def generate_sql(question: str) -> str:
 
 if __name__=="__main__":
     sql = generate_sql("What are the number of customers ?")
-    result = execute_sql(sql)
+    result = execute_sql.invoke({"query": sql})
     print(result)
